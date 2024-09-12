@@ -30,7 +30,7 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: MyApplication
+        name: MyDotnetApplication
         path: MyApplication/**
         if-no-files-found: error
 
